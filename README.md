@@ -7,9 +7,9 @@ The script to run is `run_main1.m`, which contains all parameters and the data f
 The variables I0, D0 and H0 correspond to \mathcal{I}, \mathcal{D} and \mathcal{R} in the report, respectively.
 The description of other parameters can be found in the file.
 
-The function `script1.m` contains all identification and validation procedures for SEIR model with 4 compartments: *S*, *E*, *I* and *R* (the compartment *R* includes dead and recovered individuals).
+The function `script1.m` contains all identification and validation procedures for SEIR model with 4 compartments: *S*, *E*, *I* and *R* (the compartment *R* includes deceased and recovered individuals).
 See the comments in the file. 
 
-The function `script2.m` contains all identification and validation procedures for SEIR model with 5 compartments: *S*, *E*, *I*, *D* and *R* (dying are considered separately in *D*).
+The function `script2.m` contains all identification and validation procedures for SEIR model with 5 compartments: *S*, *E*, *I*, *D* and *R* (deceased are considered separately in a compartment *D*).
 
 The function `delay_ind.m` is used to calculate the delayed values of the input in the model and predictor.
